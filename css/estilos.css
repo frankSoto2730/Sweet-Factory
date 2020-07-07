@@ -1,0 +1,262 @@
+*{
+    font-family: 'Sriracha', cursive;
+}
+html, body
+{ 
+    padding: 0 0 0 0; 
+    margin: 0 0 0 0; 
+    scroll-behavior: smooth; 
+} 
+
+#contenedor 
+{ 
+    width: 100%; 
+    height: 100%; 
+    margin: 0 0 0 0; 
+}
+
+#nav{ 
+    width: 100%; 
+    height: 50px; 
+    background-color: rgba(82, 49, 22, 0.795); 
+    color: white; 
+    line-height: 50px;        
+    position:fixed;         
+    top:0 
+}
+
+#nav ul{ 
+    padding-left: 60%; 
+    list-style-type: none;        
+    margin: 0px;        
+    padding: 0px;        
+    display:flex;  
+    justify-content:flex-end; 
+}
+
+#nav ul li{ 
+    display: block;   
+    width: 120px;
+   float: left;   
+   text-align:center; 
+}
+
+#nav ul li a{ 
+    display: block;   
+    color: white;   
+    text-align: center;   
+    text-decoration: none; 
+}
+
+#nav ul li a:hover{    
+    background-color: rgb(187, 41, 102);    
+    color: #fff; 
+}
+
+#cabecera { 
+    height: 600px; 
+    width: 100%; 
+    background-size: 100% 100%;
+    margin-bottom:-20px; 
+}
+
+#cabecera img{ 
+    height: 180px; 
+    margin-top: 60px; 
+    margin-left: 20px; 
+    float: left;
+}
+
+#cabecera h1{
+    padding-top: 10%;
+    margin-left: 15%;
+    color: rgb(252, 0, 218);
+    font-size: 8vh;
+}
+
+#contactos{ 
+    text-align:center; 
+    height: 600px; 
+    width: 100%; 
+    background-size: 100% 100%;
+    margin-top:0px; 
+    padding-top: 2%;
+    z-index: 0; 
+    color:white; 
+    background-color: rgb(187, 41, 102);
+    font-size: 30px;
+    
+}
+
+#contactos h2{
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+#transparente h2{ 
+    color:#fff; 
+    text-align: center; 
+    margin-top: 60px; 
+}
+
+.input{
+    width: 500px; 
+    height: 30px; 
+    margin-bottom: 20px; 
+    color:#000000; 
+    float: right; 
+    margin-right: 20px;
+}
+
+.textarea{ 
+    width: 500px; 
+    color:#000000; 
+    float: none;
+}
+
+.button{ 
+    width: 500px; 
+    color:#000000; 
+    float: none;
+}
+
+#transparente{      
+    z-index:1;      
+    width:100%;      
+    height:600px;      
+    background-color:#000;      
+    border:1px solid black;      
+      
+    position:relative;      
+ 
+}
+
+#postres{ 
+    height:600px; 
+    width: 100%; 
+    background-size: 100% 100%; 
+    text-align:center; 
+    color: white;
+    background-color: brown; 
+    padding-top:1%; 
+    
+}
+
+#postres img{ 
+    width: 25%; 
+    display:block;
+    float:left; 
+    padding-top:1%; 
+    padding-left:6%; 
+    padding-right: 0%;
+    height: 50%;
+}
+
+#postres p{ 
+    width: 25%; 
+    text-align:center; 
+    padding-top:1%; 
+    padding-left:6%; 
+    padding-right: 0%; 
+    display:block; 
+    float:left; 
+    font-size: 30px;
+}
+
+#postres h2{
+    font-size: 40px;
+}
+
+#galeria{
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+    text-align: center;
+    background-color: rgb(187, 41, 102);
+    padding-top: 1%;
+    color: white;
+}
+
+#galeria img{ 
+    width: 25%; 
+    display:block;
+    float:left; 
+    padding-top:1%; 
+    padding-left:6%; 
+    padding-right: 0%;
+    height: 50%;
+}
+
+#galeria p{ 
+    width: 25%; 
+    text-align:center; 
+    padding-top:1%; 
+    padding-left:6%; 
+    padding-right: 0%; 
+    display:block; 
+    float:left; 
+    font-size: 30px;
+}
+
+#quienes{
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+    text-align: center;
+    background-color: brown;
+    padding-top: 1%;
+    color: white;
+}
+
+#quienes img{
+    width: 30%; 
+    display:block;
+    float:left; 
+    padding-top:1%; 
+    padding-left:6%; 
+    padding-right: 0%;
+    height: 60%;
+}
+
+#quienes p{
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+#mapa{ 
+    height: 600px; 
+    width: 100%; 
+    background-size: 100% 100%; 
+    background-color: rgb(187, 41, 102);
+    
+
+} 
+    
+#pie{ 
+        height: 50px; 
+        width: 100%; 
+        color:#fff; 
+        background-color: rgb(82, 49, 22);
+        line-height: 50px; 
+        text-align:center; 
+    }
+
+#izq{ 
+    height: 100%; 
+    width: 49.2%; 
+    background-color:rgb(82, 49, 22); 
+    color:#fff; 
+    text-align:left; 
+    padding-left: 10px; 
+    float: left; 
+} 
+
+#der{ 
+    height: 100%; 
+    width: 49.1%; 
+    background-color:rgb(82, 49, 22); 
+    color:#fff; 
+    text-align:right; 
+    padding-right: 10px; 
+    float: left;
+}
